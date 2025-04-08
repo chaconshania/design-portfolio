@@ -6,7 +6,7 @@ function Navbar() {
       <div>
         <div className="grid lg:grid-cols-3 m-4 grid-cols-3">
           <div className="h-30 flex items-start justify-center flex-col">
-            <img src="../src/assets/Images/Logo.png" alt="" className="h-20" />
+            <img src="/assets/Images/Logo.png" alt="" className="h-20" />
           </div>
           <div className="">
             <p></p>

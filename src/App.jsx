@@ -10,8 +10,7 @@ function App() {
       <Navbar />
       <Title
         heading="Hello, I'm Shania!"
-        subtitle="Creating is sorta my thing."
-        description="I am a designer or whatever. I am writing out to test out the layout and see how long should I make it."
+        description="Designing, building, and envisioning a world that's intuitive, inspiring, and just a touch magical. "
         className="whitespace-pre-line"
       />
       <LayoutGrid />
