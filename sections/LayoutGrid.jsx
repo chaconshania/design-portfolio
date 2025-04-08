@@ -1,7 +1,7 @@
 import React from "react";
-import SmVideoCard from "../../portfolio/components/Cards/SmVideoCard";
-import LgVideoCard from "../components/Cards/LgVideoCard";
-import SmImageCard from "../components/Cards/SmImageCard";
+import SmVideoCard from "/components/Cards/SmVideoCard";
+import LgVideoCard from "/components/Cards/LgVideoCard";
+import SmImageCard from "/components/Cards/SmImageCard";
 import { motion } from "motion/react";
 
 function LayoutGrid() {
