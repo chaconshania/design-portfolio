@@ -17,8 +17,8 @@ function LayoutGrid() {
       <div className="bg-neutral-100 lg:row-span-3 rounded-lg h-full">
         <LgVideoCard
           videoSrc="/assets/Videos/OasisXR_mockup.mp4"
-          link=""
-          alt="Local Video"
+          link="https://oasisxr.framer.website/"
+          alt="Oasis Video"
         />
       </div>
       <div className="bg-neutral-100 lg:row-span-2 rounded-lg h-full ">
