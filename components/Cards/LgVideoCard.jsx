@@ -6,7 +6,7 @@ function LgVideoCard({ imageUrl, videoSrc, link, alt }) {
       href={link}
       target="_blank"
       rel="noopener noreferrer"
-      className="block transform transition duration-300 hover:scale-105 w-full h-full"
+      className="block transform transition duration-300 w-full h-full"
     >
       <div className="bg-neutral-100 rounded-lg shadow-lg w-full h-full">
         {videoSrc ? (
