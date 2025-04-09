@@ -6,7 +6,7 @@ import { motion } from "motion/react";
 
 function LayoutGrid() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 m-4">
+    <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-2 m-4">
       <div className="bg-neutral-100 lg:row-span-2 rounded-lg min-h-full">
         <SmVideoCard
           videoSrc="/assets/Videos/Lifedes_mockup.mp4"

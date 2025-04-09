@@ -11,7 +11,8 @@ function Navbar() {
           <div className="">
             <p></p>
           </div>
-          <div className="w-full text-black p-4 rounded-lg h-30 flex items-center gap-10 justify-end">
+          <div className="w-full text-black p-4 rounded-lg h-30 flex items-center gap-10 justify-end font-[Manrope]">
+            <a>Work</a>
             <a>About</a>
             <a>Resume</a>
           </div>

@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/assets/Fonts/Manrope/Manrope-Regular.ttf") format("ttf");
+}
+@font-face {
+  font-family: Fhuexole;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/Fonts/Fhuexole/Fhuexole.otf");
+}
