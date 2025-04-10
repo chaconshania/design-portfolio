@@ -23,7 +23,7 @@ function LayoutGrid() {
       </div>
       <div className="bg-neutral-100 lg:row-span-2 rounded-lg h-full ">
         <SmVideoCard
-          videoSrc="/assets/Videos/Dreamscape_mockup.mp4"
+          videoSrc="/assets/Videos/DMD_Exhibition.mp4"
           link=""
           alt="Local Video"
         />
@@ -43,18 +43,14 @@ function LayoutGrid() {
         />
       </div>
       <div className="bg-neutral-100 lg:row-span-2 lg:col-start-3 lg:row-start-3 rounded-lg">
-        6
-      </div>
-      <div className="bg-neutral-100 lg:row-span-2 lg:row-start-5 rounded-lg h-full">
         <SmVideoCard
-          videoSrc="/assets/Videos/FitMix_mockup.mp4"
+          videoSrc="/assets/Videos/Dreamscape_mockup.mp4"
           link=""
           alt="Local Video"
         />
       </div>
-      <div className="bg-neutral-100 lg:row-span-2 lg:col-start-3 lg:row-start-5 rounded-lg">
-        8
-      </div>
+      <div className="bg-neutral-100 lg:row-span-2 lg:row-start-5 rounded-lg h-full"></div>
+      <div className="bg-neutral-100 lg:row-span-2 lg:col-start-3 lg:row-start-5 rounded-lg"></div>
     </div>
   );
 }
