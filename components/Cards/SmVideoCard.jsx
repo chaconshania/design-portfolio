@@ -12,6 +12,7 @@ function SmVideoCard({ imageUrl, videoSrc, link, alt }) {
         {videoSrc ? (
           <video
             autoPlay
+            playsinline
             loop
             muted
             className="w-full h-full object-cover rounded-lg"

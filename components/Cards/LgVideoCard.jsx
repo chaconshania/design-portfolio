@@ -14,6 +14,7 @@ function LgVideoCard({ imageUrl, videoSrc, link, alt }) {
             autoPlay
             loop
             muted
+            playsinline
             className="w-full h-full object-cover rounded-lg"
           >
             <source src={videoSrc} type="video/mp4" />
