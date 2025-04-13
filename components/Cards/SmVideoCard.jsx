@@ -8,7 +8,7 @@ function SmVideoCard({ imageUrl, videoSrc, link, alt }) {
       rel="noopener noreferrer"
       className="block transform transition duration-300 w-full h-full"
     >
-      <div className="bg-neutral-100 rounded-lg shadow-lg w-full h-full">
+      <div className="bg-neutral-100 rounded-lg  w-full h-full">
         {videoSrc ? (
           <video
             autoPlay
