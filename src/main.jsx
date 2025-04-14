@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router";
-import { createRoot } from "react-dom/client";
+
 import "./index.css";
 import App from "./App.jsx";
-import About from "/public/Webpages/About.jsx";
+import About from "./Webpages/About.jsx";
 
 const root = document.getElementById("root");
 
