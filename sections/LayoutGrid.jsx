@@ -3,7 +3,7 @@ import SmVideoCard from "/components/Cards/SmVideoCard";
 import LgVideoCard from "/components/Cards/LgVideoCard";
 import SmImageCard from "/components/Cards/SmImageCard";
 import { motion } from "motion/react";
-
+import { Link, Links } from "react-router";
 function LayoutGrid() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-2 m-4">
@@ -29,11 +29,12 @@ function LayoutGrid() {
         />
       </div>
       <div className="bg-neutral-100 lg:row-span-2 lg:row-start-3 rounded-lg h-full">
-        <SmVideoCard
-          videoSrc="/assets/Videos/FitMix_mockup.mp4"
-          link=""
-          alt="Local Video"
-        />
+        <Link to="/fitmix">
+          <SmVideoCard
+            videoSrc="/assets/Videos/FitMix_mockup.mp4"
+            alt="Local Video"
+          />{" "}
+        </Link>
       </div>
       <div className="bg-neutral-100 lg:row-span-3 lg:col-start-2 lg:row-start-4 rounded-lg h-full">
         <LgVideoCard

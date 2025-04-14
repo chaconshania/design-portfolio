@@ -10,7 +10,7 @@ function Title({ heading, subtitle, description }) {
         <div className="">
           <p>{}</p>
         </div>
-        <div className="w-full text-black p-4 rounded-lg h-30 flex  items-center justify-center font-[Manrope] text-lg/7 ">
+        <div className="w-full text-black p-4 rounded-lg h-30 flex  items-center justify-center text-lg/7 ">
           <p>{description}</p>
         </div>
       </div>
