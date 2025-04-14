@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, Links } from "react-router";
 
 function Navbar() {
   return (
@@ -12,8 +13,8 @@ function Navbar() {
             <p></p>
           </div>
           <div className="w-full text-black p-4 rounded-lg h-30 flex items-center gap-10 justify-end font-[Manrope]">
-            <a>Work</a>
-            <a>About</a>
+            <Link to="/">Work</Link>
+            <Link to="/about">About</Link>
             <a>Resume</a>
           </div>
         </div>
