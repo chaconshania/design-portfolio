@@ -1,6 +1,6 @@
 import React from "react";
 
-function HeadingDesc({ title, paragraph }) {
+function HeadingDesc({ title, paragraph, paragraph2 }) {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 lg:grid-rows-1 gap-4 m-4 flex-wrap">
       <div className="lg:col-span-2">
