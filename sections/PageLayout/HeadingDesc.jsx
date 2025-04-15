@@ -8,6 +8,8 @@ function HeadingDesc({ title, paragraph, paragraph2 }) {
       </div>
       <div className="lg:col-start-2">
         <p className="text-lg/6">{paragraph}</p>
+        <br />
+        <p className="text-lg/6">{paragraph2}</p>
       </div>
     </div>
   );
