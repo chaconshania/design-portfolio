@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "/sections/Navbar";
 
-function brevity() {
+function Brevity() {
   return (
     <div>
       <Navbar />
@@ -9,4 +9,4 @@ function brevity() {
   );
 }
 
-export default brevity;
+export default Brevity;

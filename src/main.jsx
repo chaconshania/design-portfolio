@@ -6,7 +6,7 @@ import "./index.css";
 import App from "./App.jsx";
 import About from "./Webpages/About.jsx";
 import FitMix from "./Webpages/FitMix.jsx";
-import Brevity from "./Webpages/brevity.jsx";
+import Brevity from "./Webpages/Brevity.jsx";
 import OasisXR from "./Webpages/OasisXr.jsx";
 
 const root = document.getElementById("root");
