@@ -43,20 +43,24 @@ function LayoutGrid() {
         </Link>
       </div>
       <div className="bg-neutral-100 lg:row-span-3 lg:col-start-2 lg:row-start-4 rounded-lg h-full">
-        <LgVideoCard
-          videoSrc="/assets/Videos/AOTR.mp4"
-          link=""
-          alt="Local Video"
-        />
+        <Link to="" className="cursor-not-allowed">
+          <LgVideoCard
+            videoSrc="/assets/Videos/AOTR.mp4"
+            link=""
+            alt="Local Video"
+          />
+        </Link>
       </div>
-      <div className="bg-neutral-100 lg:row-span-2 lg:col-start-3 lg:row-start-3 rounded-lg">
-        <SmVideoCard
-          videoSrc="/assets/Videos/Dreamscape_mockup.mp4"
-          alt="Local Video"
-        />
+      <div className="bg-neutral-100 lg:row-span-2 lg:col-start-3 lg:row-start-3 rounded-lg ">
+        <Link to="" className="cursor-not-allowed">
+          <SmVideoCard
+            videoSrc="/assets/Videos/Dreamscape_mockup.mp4"
+            alt="Local Video"
+          />
+        </Link>
       </div>
-      <div className="bg-neutral-100 lg:row-span-2 lg:row-start-5 rounded-lg h-full"></div>
-      <div className="bg-neutral-100 lg:row-span-2 lg:col-start-3 lg:row-start-5 rounded-lg"></div>
+      <div className="lg:row-span-2 lg:row-start-5 rounded-lg h-full"></div>
+      <div className="lg:row-span-2 lg:col-start-3 lg:row-start-5 rounded-lg"></div>
     </div>
   );
 }
