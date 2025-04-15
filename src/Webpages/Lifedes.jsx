@@ -3,18 +3,18 @@ import Navbar from "/sections/Navbar";
 import HeadingDesc from "/sections/PageLayout/HeadingDesc";
 import InfoBanner from "/sections/PageLayout/InfoBanner";
 
-function Brevity() {
+function Lifedes() {
   return (
     <div>
       <Navbar />
       <InfoBanner
-        title="Brevity"
-        productType="Website Design"
-        productRole="Web Designer & Developer"
-        productDuration="3 Week"
+        title="Lifedes"
+        productType="Design"
+        productRole="UX/UI Designer"
+        productDuration="1 Week"
         description="Many people struggle to make the most of their wardrobe, often overlooking pieces they already own. With Fitmix, I set out to simplify this process by creating a mobile app prototype that lets users snap photos of their clothes and get fresh outfit inspiration—right from their closet."
         description2="This design challenge was completed as part of my UI Design course, where I focused on building a high-fidelity, interactive prototype. The goal was to create a visually engaging and user-friendly experience that encourages personal style exploration and more intentional fashion choices."
-        image="/assets/Images/FitMix/FitMix_cover.jpg"
+        image="/assets/Images/Lifedes/Lifedes_cover.png"
       />
       <HeadingDesc
         title="Project Objectives"
@@ -24,4 +24,4 @@ function Brevity() {
   );
 }
 
-export default Brevity;
+export default Lifedes;

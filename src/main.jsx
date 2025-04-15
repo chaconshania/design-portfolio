@@ -8,6 +8,7 @@ import About from "./Webpages/About.jsx";
 import FitMix from "./Webpages/FitMix.jsx";
 import Brevity from "./Webpages/Brevity.jsx";
 import OasisXR from "./Webpages/OasisXr.jsx";
+import Lifedes from "./Webpages/Lifedes.jsx";
 
 const root = document.getElementById("root");
 
@@ -19,6 +20,7 @@ ReactDOM.createRoot(root).render(
       <Route path="/fitmix" element={<FitMix />} />
       <Route path="/oasisxr" element={<OasisXR />} />
       <Route path="/brevity" element={<Brevity />} />
+      <Route path="/lifedes" element={<Lifedes />} />
     </Routes>
   </BrowserRouter>
 );

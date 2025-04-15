@@ -9,18 +9,22 @@ function LayoutGrid() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-2 m-4">
       <div className="bg-neutral-100 lg:row-span-2 rounded-lg min-h-full">
-        <SmVideoCard
-          videoSrc="/assets/Videos/Lifedes_mockup.mp4"
-          link=""
-          alt="Local Video"
-        />
+        <Link to="/lifedes">
+          <SmVideoCard
+            videoSrc="/assets/Videos/Lifedes_mockup.mp4"
+            link=""
+            alt="Local Video"
+          />
+        </Link>
       </div>
       <div className="bg-neutral-100 lg:row-span-3 rounded-lg h-full">
-        <LgVideoCard
-          videoSrc="/assets/Videos/OasisXR_demo.mov"
-          link="https://oasisxr.framer.website/"
-          alt="Oasis Video"
-        />
+        <a href="https://oasisxr.framer.website/">
+          <LgVideoCard
+            videoSrc="/assets/Videos/OasisXR_demo.mov"
+            link="https://oasisxr.framer.website/"
+            alt="Oasis Video"
+          />
+        </a>
       </div>
       <div className="bg-neutral-100 lg:row-span-2 rounded-lg h-full ">
         <Link to="/brevity">
