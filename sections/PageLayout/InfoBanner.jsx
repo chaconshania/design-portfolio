@@ -7,31 +7,42 @@ function InfoBanner({
   productDuration,
   description,
   description2,
+  image,
+  alt,
 }) {
   return (
-    <div className="grid grid-cols-1 lg:grid-rows-3 grid-rows-1 gap-4 px-10 lg:px-20 gap-y-10 lg:gap-y-1 my-20">
+    <div className="grid grid-cols-1 gap-y-20 px-10 lg:px-20  my-10">
       <div className="flex justify-center">
-        <h1 className="text-6xl">{title}</h1>
+        <h1 className="text-5xl">{title}</h1>
+      </div>
+      <div className="flex justify-center">
+        <img src={image} alt={alt} className="max-w-full h-auto" />
+      </div>
+      <div className="flex justify-center flex-wrap text-center md:px-0 lg:px-40">
+        <div className="flex basis-1/3 justify-center">
+          <div>
+            <strong>TYPE</strong>
+            <br />
+            {productType}
+          </div>
+        </div>
+        <div className="flex basis-1/3 justify-center">
+          <div>
+            <strong>ROLE</strong>
+            <br />
+            {productRole}
+          </div>
+        </div>
+        <div className="flex basis-1/3 justify-center">
+          <div>
+            <strong>DURATION</strong>
+            <br />
+            {productDuration}
+          </div>
+        </div>
       </div>
       <div className="flex justify-center md:px-0 lg:px-40">
-        <div className="flex basis-1/4 lg:basis-1/3 justify-center text-center ">
-          TYPE
-          <br />
-          {productType}
-        </div>
-        <div className="flex basis-1/4 lg:basis-1/3 justify-center text-center">
-          ROLE
-          <br />
-          {productRole}
-        </div>
-        <div className="flex basis-1/4 lg:basis-1/3 justify-center text-center">
-          DURATION
-          <br />
-          {productDuration}
-        </div>
-      </div>
-      <div className="flex justify-center md:px-0 lg:px-40">
-        <p>
+        <p className="text-center">
           {description}
           <br />
           <br />
