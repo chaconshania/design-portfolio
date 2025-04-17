@@ -15,9 +15,6 @@ function InfoBanner({
       <div className="flex justify-center">
         <h1 className="text-6xl">{title}</h1>
       </div>
-      <div className="flex justify-center">
-        <img src={image} alt={alt} className="max-w-full h-auto" />
-      </div>
       <div className="flex justify-center flex-wrap text-center md:px-0 lg:px-40 text-lg/6">
         <div className="flex basis-1/3 justify-center">
           <div>
@@ -48,6 +45,9 @@ function InfoBanner({
           <br />
           {description2}
         </p>
+      </div>
+      <div className="flex justify-center">
+        <img src={image} alt={alt} className="max-w-full h-auto" />
       </div>
     </div>
   );
