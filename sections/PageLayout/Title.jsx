@@ -6,6 +6,7 @@ function Title({ heading, subtitle, description }) {
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 m-4 ">
         <div className="h-30 flex items-start justify-center flex-col">
           <h1 className=" text-black rounded-lg text-6xl">{heading}</h1>
+          <p>{subtitle}</p>
         </div>
         <div className="">
           <p>{}</p>

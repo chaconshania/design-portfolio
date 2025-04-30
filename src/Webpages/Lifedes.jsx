@@ -2,11 +2,13 @@ import React from "react";
 import Navbar from "/sections/Navbar";
 import HeadingDesc from "/sections/PageLayout/HeadingDesc";
 import InfoBanner from "/sections/PageLayout/InfoBanner";
+import Return from "/components/Buttons/Return";
 
 function Lifedes() {
   return (
     <div>
       <Navbar />
+      <Return />
       <InfoBanner
         title="Lifedes"
         productType="Design"
