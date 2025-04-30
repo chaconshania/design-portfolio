@@ -15,10 +15,7 @@ function Navbar() {
           <div className="w-full text-black p-4 rounded-lg h-30 flex items-center gap-10 justify-end">
             <Link to="/">Work</Link>
             <Link to="/about">About</Link>
-            <a
-              href="file:///Users/kepatpack/Downloads/Shania_Chacon_CV.pdf"
-              target="_blank"
-            >
+            <a href="/public/assets/Pdfs/Shania_Chacon_CV.pdf" target="_blank">
               Resume
             </a>
           </div>
