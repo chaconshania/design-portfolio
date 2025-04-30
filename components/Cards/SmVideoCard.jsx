@@ -1,12 +1,12 @@
 import React from "react";
 
-function SmVideoCard({ imageUrl, videoSrc, link, alt }) {
+function SmVideoCard({ imageUrl, videoSrc, alt }) {
   return (
     <div className="bg-neutral-100 rounded-lg  w-full h-full">
       {videoSrc ? (
         <video
           autoPlay
-          playsinline
+          playsInline
           loop
           muted
           className="w-full h-full object-cover rounded-lg"

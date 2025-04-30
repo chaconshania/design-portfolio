@@ -14,6 +14,7 @@ function LayoutGrid() {
             videoSrc="/assets/Videos/Lifedes_mockup.mp4"
             link=""
             alt="Local Video"
+            src="/public/assets/Gifs/Lifedes.gif"
           />
         </Link>
       </div>
