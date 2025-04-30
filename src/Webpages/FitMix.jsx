@@ -3,7 +3,7 @@ import Navbar from "/sections/Navbar";
 import HeadingDesc from "/sections/PageLayout/HeadingDesc";
 import InfoBanner from "/sections/PageLayout/InfoBanner";
 import Return from "/components/Buttons/Return";
-
+import Footer from "/sections/Footer";
 function FitMix() {
   return (
     <div>
@@ -22,6 +22,7 @@ function FitMix() {
         title="Project Objectives"
         paragraph="Snap photos of your clothes or find fresh outfit inspiration to make the most of every piece in your closet."
       />
+      <Footer />
     </div>
   );
 }

@@ -3,6 +3,7 @@ import Navbar from "/sections/Navbar";
 import HeadingDesc from "/sections/PageLayout/HeadingDesc";
 import InfoBanner from "/sections/PageLayout/InfoBanner";
 import Return from "/components/Buttons/Return";
+import Footer from "/sections/Footer";
 
 function Brevity() {
   return (
@@ -26,6 +27,7 @@ function Brevity() {
         paragraph="From the start, our goal was to merge the visual branding created by the design team with a functional and engaging site experience that would showcase UConn’s Digital Media & Design student projects."
         paragraph2="We began with moodboards and information architecture, gradually moving through low, mid, and high-fidelity prototypes. While the design team developed the brand identity, we worked in parallel on the site structure and layout, staying in constant communication to ensure visual consistency. We also engaged with the students—our core users—to gather input and test early designs, helping us understand what resonated and what needed refinement."
       />
+      <Footer />
     </div>
   );
 }

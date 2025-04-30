@@ -3,7 +3,7 @@ import Navbar from "/sections/Navbar";
 import HeadingDesc from "/sections/PageLayout/HeadingDesc";
 import InfoBanner from "/sections/PageLayout/InfoBanner";
 import Return from "/components/Buttons/Return";
-
+import Footer from "/sections/Footer";
 function Lifedes() {
   return (
     <div>
@@ -23,12 +23,13 @@ function Lifedes() {
       />
       <HeadingDesc
         title="Problem Statement"
-        paragraph="Fashion and lifestyle readers, especially mobile-first users, struggle to find digital publications that balance bold, trend-driven visuals with clean, intuitive design. Current platforms often feel cluttered, outdated, and lack responsiveness—leading to a disjointed and unsatisfying user experience."
+        paragraph="Fashion and lifestyle readers, especially mobile-first users, struggle to find digital publications that balance bold, trend-driven visuals with clean, intuitive design. Current platforms often feel cluttered, outdated, and lack responsiveness. All leading to a disjointed and unsatisfying user experience."
       />
       <HeadingDesc
         title="The Solution"
         paragraph="To solve this, I designed a responsive digital publication that blends sleek, modern visuals with clean, intuitive layouts. The goal was to create a seamless experience across all devices, ensuring users could enjoy stylish, engaging content without feeling overwhelmed. "
       />
+      <Footer />
     </div>
   );
 }

@@ -11,7 +11,7 @@ function InfoBanner({
   alt,
 }) {
   return (
-    <div className="grid grid-cols-1 gap-y-20 px-10 lg:px-20  my-10">
+    <div className="grid grid-cols-1 gap-y-20 px-10 lg:px-20 my-10">
       <div className="flex justify-center">
         <h1 className="text-6xl">{title}</h1>
       </div>
