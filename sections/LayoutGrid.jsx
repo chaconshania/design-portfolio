@@ -19,13 +19,13 @@ function LayoutGrid() {
         </Link>
       </div>
       <div className="bg-neutral-100 lg:row-span-3 rounded-lg h-full">
-        <a href="https://oasisxr.framer.website/">
+        <Link to="/oasisxr">
           <LgVideoCard
             videoSrc="/assets/Videos/OasisXR_demo.mov"
             link="https://oasisxr.framer.website/"
             alt="Oasis Video"
           />
-        </a>
+        </Link>
       </div>
       <div className="bg-neutral-100 lg:row-span-2 rounded-lg h-full ">
         <Link to="/brevity">
