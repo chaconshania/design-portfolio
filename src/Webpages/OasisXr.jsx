@@ -4,6 +4,7 @@ import Return from "/components/Buttons/Return";
 import InfoBanner from "/sections/PageLayout/InfoBanner";
 import HeadingDesc from "/sections/PageLayout/HeadingDesc";
 import Footer from "/sections/Footer";
+import FullImage from "/components/ImageCard/FullImage";
 function OasisXr() {
   return (
     <div>
@@ -15,7 +16,7 @@ function OasisXr() {
         productRole="UX/UI Designer"
         productDuration="4 Months"
         description="Oasis XR is an immersive experience where users get to connect and play calming, mindfulness activities, mediated through a VR headset."
-        image="/assets/Images/FitMix/FitMix_cover.jpg"
+        videoSrc="/public/assets/Videos/Shania_Chacon_OasisXR.mp4"
       />
       <HeadingDesc
         title="Background"
@@ -26,9 +27,10 @@ function OasisXr() {
         title="My Role"
         paragraph="As the lead researcher and designer, my role is to explore how XR technology can enhance mental health solutions. I will be conducting user research, analyzing existing XR apps like Headspace and Endel, and designing user-centered experiences to address the needs of people struggling with anxiety and stress. My responsibilities include developing user personas, creating XR prototypes through Bezi, and testing solutions to ensure that the final product is effective, engaging, and accessible to users."
       />
+      <FullImage image="/assets/Images/FitMix/FitMix_cover.jpg" />
       <HeadingDesc
         title="The Problem"
-        paragraph="Many traditional and XR mindfulness apps struggle to keep users engaged and fail to address the unique challenges of managing anxiety and stress effectively. High costs, lack of accessibility, limited personalization, and a failure to create immersive, interactive experiences often leave users feeling disconnected and unmotivated. "
+        paragraph="Many traditional and XR mindfulness apps struggle to keep users engaged and fail to address the unique challenges of managing anxiety and stress effectively. High costs, lack of accessibility, limited personalization, and a failure to create immersive, interactive experiences often leave users feeling disconnected and unmotivated."
       />
       <Footer />
     </div>

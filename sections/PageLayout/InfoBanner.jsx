@@ -8,10 +8,11 @@ function InfoBanner({
   description,
   description2,
   image,
+  videoSrc,
   alt,
 }) {
   return (
-    <div className="grid grid-cols-1 gap-y-20 px-10 lg:px-20 my-10">
+    <div className="grid grid-cols-1 gap-y-20 px-[2%] my-10">
       <div className="flex justify-center">
         <h1 className="text-6xl">{title}</h1>
       </div>
@@ -48,6 +49,10 @@ function InfoBanner({
       </div>
       <div className="flex justify-center">
         <img src={image} alt={alt} className="max-w-full h-auto" />
+        <video>
+          <source src={videoSrc} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </div>
     </div>
   );
