@@ -3,7 +3,7 @@ import React from "react";
 function Title({ heading, subtitle, description }) {
   return (
     <div>
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 m-4 ">
+      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 m-4 gap-2 ">
         <div className="md:h-30 h-25 flex items-start justify-center flex-col">
           <h1 className=" text-black rounded-lg text-6xl">{heading}</h1>
           <p>{subtitle}</p>
