@@ -3,7 +3,7 @@ import { Link } from "react-router";
 
 function Return() {
   return (
-    <div className="grid grid-cols-1 gap-y-20 px-10 lg:px-20 my-10">
+    <div className="grid grid-cols-1 gap-y-20 px-10 lg:px-20 my-10 hover:text-[#898989] duration-200 ease-in">
       <Link to="/">
         <div className="flex gap-2">
           <svg

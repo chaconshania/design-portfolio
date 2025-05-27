@@ -11,7 +11,7 @@ function Brevity() {
       <Navbar />
       <Return />
       <InfoBanner
-        title="Brevity"
+        title="BREVITY"
         productType="Website Design"
         productRole="Web Designer & Developer"
         productDuration="3 Week"

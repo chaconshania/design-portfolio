@@ -14,11 +14,19 @@ function Navbar() {
             />
           </div>
           <div className="w-full text-black p-4 rounded-lg h-30 flex items-center gap-10 justify-end">
-            <Link to="/">Work</Link>
-            <Link to="/about">About</Link>
+            <Link to="/" className="hover:text-[#898989] duration-200 ease-in">
+              Work
+            </Link>
+            <Link
+              to="/about"
+              className="hover:text-[#898989] duration-200 ease-in"
+            >
+              About
+            </Link>
             <a
               href="https://drive.google.com/file/d/18N20jg2oWwrbI11mXofU1TpDUDKwgsWN/view?usp=sharing"
               target="_blank"
+              className="hover:text-[#898989] duration-200 ease-in"
             >
               Resume
             </a>

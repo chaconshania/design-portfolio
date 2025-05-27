@@ -10,7 +10,7 @@ function Lifedes() {
       <Navbar />
       <Return />
       <InfoBanner
-        title="Lifedes"
+        title="LIFEDES"
         productType="Design"
         productRole="UX/UI Designer"
         productDuration="1 Week"

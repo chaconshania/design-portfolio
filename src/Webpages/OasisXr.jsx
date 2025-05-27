@@ -11,7 +11,7 @@ function OasisXr() {
       <Navbar />
       <Return />
       <InfoBanner
-        title="Oasis XR"
+        title="OASIS XR"
         productType="Design"
         productRole="UX/UI Designer"
         productDuration="4 Months"

@@ -10,7 +10,7 @@ function FitMix() {
       <Navbar />
       <Return />
       <InfoBanner
-        title="FitMix"
+        title="FITMIX"
         productType="Design"
         productRole="UX/UI Designer"
         productDuration="1 Week"
