@@ -47,13 +47,6 @@ function InfoBanner({
           {description2}
         </p>
       </div>
-      <div className="flex justify-center">
-        <img src={image} alt={alt} className="max-w-full h-auto" />
-        <video>
-          <source src={videoSrc} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-      </div>
     </div>
   );
 }
