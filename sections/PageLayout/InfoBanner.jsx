@@ -12,11 +12,11 @@ function InfoBanner({
   alt,
 }) {
   return (
-    <div className="grid grid-cols-1 gap-y-20 px-[2%] my-10">
+    <div className="grid grid-cols-1 gap-y-10 px-[2%] my-10">
       <div className="flex justify-center">
         <h1 className="text-6xl">{title}</h1>
       </div>
-      <div className="flex justify-center flex-wrap text-center md:px-0 lg:px-40 text-lg/6">
+      <div className="flex justify-center flex-wrap text-center md:px-0 lg:px-90 text-lg/6 ">
         <div className="flex basis-1/3 justify-center">
           <div>
             <strong>TYPE</strong>
@@ -46,6 +46,20 @@ function InfoBanner({
           <br />
           {description2}
         </p>
+      </div>
+      <div className="flex justify-center">
+        <img src={image} alt={alt} className="max-w-full h-auto" />
+        {videoSrc && (
+          <div className="w-full aspect-video">
+            <iframe
+              src={videoSrc}
+              title="Video"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowFullScreen
+              className="w-full h-full"
+            ></iframe>
+          </div>
+        )}
       </div>
     </div>
   );

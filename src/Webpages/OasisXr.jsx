@@ -16,7 +16,7 @@ function OasisXr() {
         productRole="UX/UI Designer"
         productDuration="4 Months"
         description="Oasis XR is an immersive experience where users get to connect and play calming, mindfulness activities, mediated through a VR headset."
-        videoSrc="/public/assets/Videos/Shania_Chacon_OasisXR.mp4"
+        videoSrc="https://player.vimeo.com/video/1073426256?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
       />
       <HeadingDesc
         title="Background"
