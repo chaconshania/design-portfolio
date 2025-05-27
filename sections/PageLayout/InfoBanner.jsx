@@ -21,21 +21,21 @@ function InfoBanner({
           <div>
             <strong>TYPE</strong>
             <br />
-            {productType}
+            <span className="pt-2 block">{productType}</span>
           </div>
         </div>
         <div className="flex basis-1/3 justify-center">
           <div>
             <strong>ROLE</strong>
             <br />
-            {productRole}
+            <span className="pt-2 block">{productRole}</span>
           </div>
         </div>
         <div className="flex basis-1/3 justify-center">
           <div>
             <strong>DURATION</strong>
             <br />
-            {productDuration}
+            <span className="pt-2 block">{productDuration}</span>
           </div>
         </div>
       </div>
