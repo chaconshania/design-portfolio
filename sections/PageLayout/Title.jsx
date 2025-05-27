@@ -8,7 +8,7 @@ function Title({ heading, subtitle, description }) {
           <h1 className=" text-black rounded-lg text-6xl">{heading}</h1>
           <p>{subtitle}</p>
         </div>
-        <div className="invisible">
+        <div className="">
           <p>{}</p>
         </div>
         <div className="w-full text-black md:ps-2 rounded-lg flex  items-center justify-center text-lg/7 ">
