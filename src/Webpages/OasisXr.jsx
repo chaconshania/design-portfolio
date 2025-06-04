@@ -32,6 +32,19 @@ function OasisXr() {
         title="The Problem"
         paragraph="Many traditional and XR mindfulness apps struggle to keep users engaged and fail to address the unique challenges of managing anxiety and stress effectively. High costs, lack of accessibility, limited personalization, and a failure to create immersive, interactive experiences often leave users feeling disconnected and unmotivated."
       />
+      <div className="flex gap-8 w-full px-4 justify-center align-center">
+        <div className="w-full px-4  max-w-6xl text-wrap">
+          <h3>The Problem</h3>
+          <p>
+            Many traditional and XR mindfulness apps struggle to keep users
+            engaged and fail to address the unique challenges of managing
+            anxiety and stress effectively. High costs, lack of accessibility,
+            limited personalization, and a failure to create immersive,
+            interactive experiences often leave users feeling disconnected and
+            unmotivated.
+          </p>
+        </div>
+      </div>
       <Footer />
     </div>
   );
