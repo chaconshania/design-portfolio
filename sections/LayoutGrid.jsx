@@ -17,7 +17,7 @@ function LayoutGrid() {
             src="/public/assets/Gifs/Lifedes.gif"
           />
         </Link>
-        <div className="absolute top-4 left-4 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        <div className="absolute top-4 left-4 flex gap-2 opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300">
           <span className="bg-black text-white text-sm px-4 py-2 rounded">
             Lifedes, UX/UI
           </span>
@@ -34,7 +34,7 @@ function LayoutGrid() {
             alt="Oasis Video"
           />
         </Link>
-        <div className="absolute top-4 left-4 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        <div className="absolute top-4 left-4 flex gap-2 opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300">
           <span className="bg-white text-black text-sm px-4 py-2 rounded">
             Oasis, Extended Reality Prototype
           </span>
@@ -50,7 +50,7 @@ function LayoutGrid() {
             alt="Local Video"
           />
         </Link>
-        <div className="absolute top-4 left-4 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        <div className="absolute top-4 left-4 flex gap-2 opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300">
           <span className="bg-black text-white text-sm px-4 py-2 rounded">
             Brevity, Web Design
           </span>
@@ -66,7 +66,7 @@ function LayoutGrid() {
             alt="Local Video"
           />
         </Link>
-        <div className="absolute top-4 left-4 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        <div className="absolute top-4 left-4 flex gap-2 opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300">
           <span className="bg-black text-white text-sm px-4 py-2 rounded">
             FitMix, UX/UI
           </span>
@@ -83,7 +83,7 @@ function LayoutGrid() {
             alt="Local Video"
           />
         </Link>
-        <div className="absolute top-4 left-4 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        <div className="absolute top-4 left-4 flex gap-2 opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300">
           <span className="bg-black text-white text-sm px-4 py-2 rounded">
             Art of the Roll
           </span>
@@ -99,7 +99,7 @@ function LayoutGrid() {
             alt="Local Video"
           />
         </Link>
-        <div className="absolute top-4 left-4 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        <div className="absolute top-4 left-4 flex gap-2 opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300">
           <span className="bg-black text-white text-sm px-4 py-2 rounded">
             DreamScape, Web Design
           </span>
