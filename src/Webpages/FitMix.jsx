@@ -18,10 +18,7 @@ function FitMix() {
         description2="This design challenge was completed as part of my UI Design course, where I focused on building a high-fidelity, interactive prototype. The goal was to create a visually engaging and user-friendly experience that encourages personal style exploration and more intentional fashion choices."
         image="/assets/Images/FitMix/FitMix_cover.jpg"
       />
-      <HeadingDesc
-        title="Project Objectives"
-        paragraph="Snap photos of your clothes or find fresh outfit inspiration to make the most of every piece in your closet."
-      />
+
       <Footer />
     </div>
   );
