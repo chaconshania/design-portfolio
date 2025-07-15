@@ -1,21 +1,22 @@
 import React from "react";
 
-function Title({ heading, subtitle, description }) {
+function Title({}) {
   return (
-    <div>
-      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 m-4 gap-2 ">
-        <div className="md:h-30 h-25 flex items-start justify-center flex-col">
-          <h1 className=" text-black rounded-lg text-6xl">{heading}</h1>
-          <p>{subtitle}</p>
-        </div>
-        <div className="">
-          <p>{}</p>
-        </div>
-        <div className="w-full text-black md:ps-2 rounded-lg flex  items-center justify-center text-lg/7 ">
-          <p>{description}</p>
+    <section className="px-2 md:px-2 py-2">
+      <div className="m-4 ">
+        {/* Project Overview */}
+        <div className="grid grid-cols-12 gap-8 mb-10">
+          <div className="col-span-12">
+            <h1 className="text-6xl font-light mb-6 bold">Hi, I'm Shania!</h1>
+            <p className="text-lg/6 leading-relaxed mb-4">
+              Designing, building, and envisioning a world that's intuitive,
+              inspiring, and just a touch magical. <br /> Currently working as a
+              Product Designer Intern @ Blueberry.Social!
+            </p>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

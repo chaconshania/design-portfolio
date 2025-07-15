@@ -8,11 +8,8 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Title
-        heading="Hello, I'm Shania!"
-        description="Designing, building, and envisioning a world that's intuitive, inspiring, and just a touch magical. "
-        className="whitespace-pre-line"
-      />
+      <Title />
+
       <LayoutGrid />
       <Footer />
     </div>
